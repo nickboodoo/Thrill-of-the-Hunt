@@ -1,0 +1,4 @@
+main.py = launcher
+engine = game.py
+game.py will control gamestate
+use separate module to control content (map, player, characters)
