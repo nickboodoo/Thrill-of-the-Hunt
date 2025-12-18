@@ -67,4 +67,7 @@ class Game:
 if __name__ == "__main__":
     print("SANDBOX TESTING")
 
-    Game().run()
+    #Game().run()
+
+    nums = [0, 1, 2]
+    print(range(len(nums)))
