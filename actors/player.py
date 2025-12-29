@@ -4,7 +4,7 @@ class Player():
     def __init__(self):
         self.player_exists = True
     
-    def move_player(self, command):
-        if self.player_exists:
-            player_position += 1
-            return "player moved"
+    def check_player_generation(self):
+        return "player has been generated"
+    
+    

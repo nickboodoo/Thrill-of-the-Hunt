@@ -9,8 +9,9 @@ class World():
         world = [] * size
         return f"Map has been generated of size {size}"
     
-    def progress_player(self):
-        # start player in starting room
-        i = 0
-
+    def generate_player(self):
+        new_player = Player()
+        print(new_player.check_player_generation())
+        
+        
     
