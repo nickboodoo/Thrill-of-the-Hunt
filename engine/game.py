@@ -13,6 +13,5 @@ class Game():
             print("Game is running")
             overworld = World()
             print(World().generate_map(4))
-            print(Player().check_player_generation()
-                  )
+            print(Player().check_player_generation())
 
