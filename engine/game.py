@@ -3,6 +3,7 @@
 
 from engine.world import World
 from actors.player import Player
+from actors.enemy import Enemy
 
 class Game():
     def __init__(self):
@@ -14,4 +15,5 @@ class Game():
             overworld = World()
             print(World().generate_map(4))
             print(Player().check_player_generation())
+            print(Enemy().check_enemy_exist())
 
