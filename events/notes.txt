@@ -1,0 +1,2 @@
+i think i want the events module to control things like battles, levelling up, losing, etc. 
+
