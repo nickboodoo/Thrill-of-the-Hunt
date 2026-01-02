@@ -4,6 +4,7 @@
 from engine.world import World
 from actors.player import Player
 from actors.enemy import Enemy
+from events.encounter import Encounter
 
 class Game():
     def __init__(self):
@@ -16,4 +17,5 @@ class Game():
             print(World().generate_map(4))
             print(Player().check_player_generation())
             print(Enemy().check_enemy_exist())
+            print(Encounter().check_encounter_generation())
 
