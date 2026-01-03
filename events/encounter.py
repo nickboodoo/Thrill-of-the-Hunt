@@ -1,4 +1,4 @@
-
+# encounters will be generated when the player moves to a new node
 
 
 class Encounter():
