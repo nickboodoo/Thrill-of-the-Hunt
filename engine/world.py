@@ -14,13 +14,13 @@ class World():
     
     def generate_player(self):
         new_player = Player()
-        print(new_player.check_player_generation())
+        return new_player.check_player_generation()
 
     def generate_enemy(self):
         new_enemy = Enemy()
-        print(new_enemy.check_enemy_exist())
+        return new_enemy.check_enemy_exist()
 
     def generate_encounter(self):
         new_encounter = Encounter()
-        print(new_encounter.check_encounter_generation())
+        return new_encounter.check_encounter_generation()
     
