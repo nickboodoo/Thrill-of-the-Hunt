@@ -4,11 +4,13 @@ from actors.enemy import Enemy
 from events.encounter import Encounter
 
 
-class World():
+class Router():
     def __init__(self):
-        self.map_exists = True
+        self.router_exists = True
     
     def generate_map(self, size):
+
+        # Temporary explicit map creation
         world = [] * size
         return f"Map has been generated of size {size}"
     
@@ -23,4 +25,3 @@ class World():
     def generate_encounter(self):
         new_encounter = Encounter()
         return new_encounter.check_encounter_generation()
-    
