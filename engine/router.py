@@ -2,6 +2,7 @@
 from actors.player import Player
 from actors.enemy import Enemy
 from events.encounter import Encounter
+from engine.map import Map
 
 
 class Router():
@@ -9,10 +10,8 @@ class Router():
         self.router_exists = True
     
     def generate_map(self, size):
-
-        # Temporary explicit map creation
-        world = [] * size
-        return f"Map has been generated of size {size}"
+        new_map = Map(4)
+        return new_map.check_map_existance()
     
     def generate_player(self):
         new_player = Player()

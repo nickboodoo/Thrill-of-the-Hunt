@@ -5,6 +5,7 @@ class Player():
         self.player_exists = True
     
     def check_player_generation(self):
-        return "player has been generated"
+        if self.player_exists:
+            return "player has been generated"
     
     
